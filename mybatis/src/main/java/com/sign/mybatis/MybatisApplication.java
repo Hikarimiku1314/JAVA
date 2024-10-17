@@ -9,20 +9,19 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @Slf4j
 public class MybatisApplication {
-    @Autowired
-    private String words = "cebtech"
 
     public static void main(String[] args) {
         SpringApplication.run(MybatisApplication.class, args);
     }
 
-    @Override
+
     public void run(String... args) throws Exception{
-        hello(this.words);
+        String words = "cebtech";
+        hello(words);
     }
 
     public void hello(String words){
-        log.info("Hello " + words + " !!!")
+        log.info("Hello " + words + " !!!");
     }
 
 }

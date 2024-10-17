@@ -2,8 +2,8 @@ package com.sign.mybatis.model;
 
 
 
-@Data
-public class Coffee {
-    private Long id;
-
-}
+//@Data
+//public class Coffee {
+//    private Long id;
+//
+//}
